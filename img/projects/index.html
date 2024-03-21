@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Anil Kumar - Portfolio Website</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Background Circles Start-->
+    <div class="bg-circles">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+    <!-- Background Circles Start-->
+
+    <div class="main" id="home">
+      <div class="container">
+        <nav id="navBar">
+          <div class="logo">
+            <h2>Anil</h2>
+          </div>
+          <div class="nav-links" id="nav-links">
+            <ul>
+              <li><a href="#home" class="active">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <img src="img/close.png" class="close" onclick="closeNav()" />
+              <div class="social-links-mobi">
+                <a href="https://github.com/anilkumar-frontend" target="_blank"
+                  ><img src="img/github.png"
+                /></a>
+                <img src="img/linkedin.png" />
+                <img src="img/instagram.png" />
+              </div>
+            </ul>
+          </div>
+          <img src="img/menu.png" class="menu" onclick="openNav()" />
+        </nav>
+        <div class="banner">
+          <div class="social-links">
+            <a href="https://github.com/anilkumar-frontend"
+              ><img src="img/github.png"
+            /></a>
+            <img src="img/linkedin.png" />
+            <img src="img/instagram.png" />
+          </div>
+          <div class="left-col">
+            <p>Hello, I',m</p>
+            <h1>AnilKumar</h1>
+            <h3>Frontend Developer</h3>
+            <a
+              href="Resume/Anil-Kumar-Resume.pdf"
+              class="button-all"
+              download=""
+              >Download Cv</a
+            >
+          </div>
+          <div class="right-col">
+            <img src="img/photo.png" class="banner-img" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="about">
+        <div class="main-heading">
+          <h1>About Me</h1>
+        </div>
+        <div class="about-content">
+          <p class="about-text">
+            Hello! My name is Anil Kumar, I enjoy creating things that live on
+            the internet. My interest in web development started back last year
+            when I was trying to edit things on the web - taught me a lot about
+            HTML & CSS!. Fast forwarding to today, I built a number of web
+            applications and 3 Major projects. Learned a great deal about
+            teamwork, leadership and communication. After months of rigorous
+            training, here I am looking for an opportunity as a Frontend
+            developer.
+          </p>
+          <div class="education">
+            <div class="col">
+              <h1>Full-Stack Web Development</h1>
+              <p>NXT WAVE'S Acadamy Bengalore.</p>
+              <p>Dec 2022 - Ongoing</p>
+            </div>
+            <div class="col">
+              <h1>Bachelore Of Science(MSCs)</h1>
+              <p>Viswa Bharatiya Vidya Parishad Autonomus College A.P</p>
+              <p>June 2016 - April 2019</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="skills">
+        <div class="main-heading">
+          <h1>Skills</h1>
+        </div>
+        <div class="skill-content">
+          <div class="left-col">
+            <img src="img/skills.png" class="skill-img" />
+          </div>
+          <div class="right-col">
+            <div class="skill-bar">
+              <p>HTML</p>
+              <div class="progress">
+                <div class="bar html"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <p>CSS</p>
+              <div class="progress">
+                <div class="bar css"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <p>BOOTSTRAP</p>
+              <div class="progress">
+                <div class="bar bootstrap"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <p>JAVASCRIPT</p>
+              <div class="progress">
+                <div class="bar javascript"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <p>PYTHON</p>
+              <div class="progress">
+                <div class="bar python"></div>
+              </div>
+            </div>
+            <div class="skill-bar">
+              <p>REACT JS</p>
+              <div class="progress">
+                <div class="bar reactjs"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="projects">
+        <div class="main-heading">
+          <h1>Projects</h1>
+        </div>
+        <div class="projects">
+          <div class="project-card">
+            <div>
+              <img src="img/projects/edusicty ui2.png" class="project-img" />
+            </div>
+            <h1>Edusity</h1>
+            <!-- <button id="openModalBtn" class="button-all openModalBtn">View Details</button> -->
+            <button onclick="openModal('modal1')" class="button-all">
+              View Details
+            </button>
+          </div>
+
+          <div class="project-card">
+            <div>
+              <img
+<<<<<<< HEAD
+                src="img/projects/youtubeclone.png"
+                class="project-img"
+              />
+            </div>
+            <h1>Youtube Clone</h1>
+=======
+                src="img/projects/online-education.png"
+                class="project-img"
+              />
+            </div>
+            <h1>Online Education</h1>
+>>>>>>> origin/main
+            <button onclick="openModal('modal2')" class="button-all">
+              View Details
+            </button>
+          </div>
+          <div class="project-card">
+            <div>
+              <img src="img/projects/stay-bnb-traval.png" class="project-img" />
+            </div>
+            <h1>StayBnb Travall</h1>
+            <button onclick="openModal('modal3')" class="button-all">
+              View Details
+            </button>
+          </div>
+          <div class="project-card">
+            <div>
+              <img src="img/projects/tor-project.png" class="project-img" />
+            </div>
+            <h1>TOR Website Clone</h1>
+            <button onclick="openModal('modal4')" class="button-all">
+              View Details
+            </button>
+          </div>
+          <div class="project-card">
+            <div>
+              <img src="img/projects/digital-agency.png" class="project-img" />
+            </div>
+            <h1>Digital Media Agency</h1>
+            <button onclick="openModal('modal5')" class="button-all">
+              View Details
+            </button>
+          </div>
+          <div class="project-card">
+            <div>
+              <img
+                src="img/projects/neumorphism-personal.png"
+                class="project-img"
+              />
+            </div>
+            <h1>Neumorphisam</h1>
+            <button onclick="openModal('modal6')" class="button-all">
+              View Details
+            </button>
+          </div>
+        </div>
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <span class="close-icon" onclick="closeModal('modal1')"
+              >&times;</span
+            >
+            <div class="img-div">
+              <img src="img/projects/edusicty ui2.png" class="model-img" />
+            </div>
+            <p class="model-description">
+              The ReactJS Edusity Educational Website is a static web project
+              aimed at providing a user-friendly and interactive platform for
+              educational purposes Designed and developed user interface
+              components using React. Developed reusable components and
+              front-end libraries for future use. Develop application components
+              using ES6/7, HTML5, and CSS3 Built on the React.js framework, this
+              website offers a seamless experience for learners to access
+              educational content, resources, and tools.
+            </p>
+            <div class="dtl-row">
+              <p class="date-row">Created - <span>Feb 2024</span></p>
+              <p class="date-row">
+                Technologies Used - <span>Html, Css, JavaScript, ReactJS</span>
+              </p>
+              <p class="date-row">
+                View Online -
+                <span
+                  ><a href="https://edusity-anilkumar.netlify.app/"
+                    >Click Here</a
+                  ></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="modal2" class="modal">
+          <div class="modal-content">
+            <span class="close-icon" onclick="closeModal('modal2')"
+              >&times;</span
+            >
+            <div class="img-div">
+<<<<<<< HEAD
+              <img src="img/projects/youtubeclone.png" class="model-img" />
+            </div>
+            <p class="model-description">
+              In the era of digital media consumption, video-sharing platforms like YouTube have become integral parts 
+              of our online experience. This project aims to develop a clone of YouTube using React JS along with React 
+              Router DOM and React events. By replicating the core functionalities of YouTube, 
+              we will create a dynamic and responsive web application for browsing, searching, and viewing videos.
+            </p>
+            <div class="dtl-row">
+              <p class="date-row">Created - <span>Mar 2024</span></p>
+              <p class="date-row">
+                Technologies Used - <span>Html, Css, React JS</span>
+=======
+              <img src="img/projects/online-education.png" class="model-img" />
+            </div>
+            <p class="model-description">
+              Online Education Website In this website I have create user friendly designs
+              where users can choose courses and added AOS (Animation On Scroll) technology for
+              better scroll animation.
+            </p>
+            <div class="dtl-row">
+              <p class="date-row">Created - <span>Dec 2020</span></p>
+              <p class="date-row">
+                Technologies Used - <span>Html, Css, JavaScript</span>
+>>>>>>> origin/main
+              </p>
+              <p class="date-row">
+                View Online -
+                <span
+                  ><a
+<<<<<<< HEAD
+                    href="https://youtubecloneanil.netlify.app/"
+=======
+                    href="https://online-education-anil.netlify.app/"
+>>>>>>> origin/main
+                    target="_blank"
+                    >Click Here</a
+                  ></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="modal3" class="modal">
+          <div class="modal-content">
+            <span class="close-icon" onclick="closeModal('modal3')"
+              >&times;</span
+            >
+            <div class="img-div">
+              <img src="img/projects/stay-bnb-traval.png" class="model-img" />
+            </div>
+            <p class="model-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur impedit laborum delectus dignissimos vel obcaecati
+              atque modi, optio reprehenderit similique doloremque. Iure amet
+              officiis voluptatem. Vitae inventore iusto exercitationem
+              cupiditate.
+            </p>
+            <div class="dtl-row">
+              <p class="date-row">Created - <span>Dec 2023</span></p>
+              <p class="date-row">
+                Technologies Used - <span>Html, Css, JavaScript</span>
+              </p>
+              <p class="date-row">
+                View Online - <span><a href="#">Click Here</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="modal4" class="modal">
+          <div class="modal-content">
+            <span class="close-icon" onclick="closeModal('modal4')"
+              >&times;</span
+            >
+            <div class="img-div">
+              <img src="img/projects/tor-project.png" class="model-img" />
+            </div>
+            <p class="model-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur impedit laborum delectus dignissimos vel obcaecati
+              atque modi, optio reprehenderit similique doloremque. Iure amet
+              officiis voluptatem. Vitae inventore iusto exercitationem
+              cupiditate.
+            </p>
+            <div class="dtl-row">
+              <p class="date-row">Created - <span>Dec 2020</span></p>
+              <p class="date-row">
+                Technologies Used - <span>Html, Css, JavaScript</span>
+              </p>
+              <p class="date-row">
+                View Online - <span><a href="#">Click Here</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="modal5" class="modal">
+          <div class="modal-content">
+            <span class="close-icon" onclick="closeModal('modal5')"
+              >&times;</span
+            >
+            <div class="img-div">
+              <img src="img/projects/digital-agency.png" class="model-img" />
+            </div>
+            <p class="model-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur impedit laborum delectus dignissimos vel obcaecati
+              atque modi, optio reprehenderit similique doloremque. Iure amet
+              officiis voluptatem. Vitae inventore iusto exercitationem
+              cupiditate.
+            </p>
+            <div class="dtl-row">
+              <p class="date-row">Created - <span>Dec 2020</span></p>
+              <p class="date-row">
+                Technologies Used - <span>Html, Css, JavaScript</span>
+              </p>
+              <p class="date-row">
+                View Online -
+                <span
+                  ><a
+                    href="https://digital-agency-anilkumar.netlify.app/"
+                    target="_blank"
+                    >Click Here</a
+                  ></span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="modal6" class="modal">
+          <div class="modal-content">
+            <span class="close-icon" onclick="closeModal('modal6')"
+              >&times;</span
+            >
+            <div class="img-div">
+              <img
+                src="img/projects/neumorphism-personal.png"
+                class="model-img"
+              />
+            </div>
+            <p class="model-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur impedit laborum delectus dignissimos vel obcaecati
+              atque modi, optio reprehenderit similique doloremque. Iure amet
+              officiis voluptatem. Vitae inventore iusto exercitationem
+              cupiditate.
+            </p>
+            <div class="dtl-row">
+              <p class="date-row">Created - <span>Dec 2020</span></p>
+              <p class="date-row">
+                Technologies Used - <span>Html, Css, JavaScript</span>
+              </p>
+              <p class="date-row">
+                View Online - <span><a href="#">Click Here</a></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container contact" id="contact">
+        <div class="main-heading">
+          <h1>Contact</h1>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="input-box">
+              <input type="text" placeholder="Name" />
+            </div>
+            <div class="input-box">
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Subject" />
+            </div>
+            <div class="text-area input-box">
+              <textarea class="text-area-box" placeholder="Message"></textarea>
+            </div>
+            <button class="button-all">Send Message</button>
+          </div>
+          <div class="col">
+            <div class="name-box">
+              <h4>Email :</h4>
+              <p>anilthammathaka@gmail.com</p>
+            </div>
+            <div class="name-box">
+              <h4>Phone No :</h4>
+              <p>+91 8309971002</p>
+            </div>
+            <div class="name-box">
+              <h4>Address :</h4>
+              <p>Anantapur, Andhra Pradesh.</p>
+            </div>
+            <div class="name-box">
+              <h4>Follow Me :</h4>
+              <div class="follwme">
+                <img src="img/github.png" />
+                <img src="img/linkedin.png" />
+                <img src="img/instagram.png" />
+                <img src="img/telegram.png" />
+                <img src="img/facebook.png" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button id="myBtn" class="btt" onclick="topFunction()">top</button>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
