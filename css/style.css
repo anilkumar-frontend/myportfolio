@@ -255,13 +255,13 @@ nav ul li:hover::before{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 50px;
+    gap: 40px;
 }
 .social-links img{
     width: 30px;
-    margin-bottom: 35px;
     cursor: pointer;
-    color: #c2b0b6;
-    display: inline-block;
+    display: block;
     transition: 0.5s scale;
 }
 .social-links img:hover{
@@ -660,7 +660,19 @@ nav ul li:hover::before{
     -webkit-backdrop-filter: blur( 5px );
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
-
+.projectbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectbtn button{
+    transition: color 1s;
+    background: rgba( 255, 255, 255, 0.3 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 
 
 @media screen and (max-width:700px) {
@@ -936,4 +948,41 @@ nav ul li:hover::before{
     bottom: 10px;
     right: 40px;
     display: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------all project list css -----------*/
+
+
+.projectPage .top-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 30px 2%;
+}
+.top-section img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    cursor: pointer;
+}
+.top-section .name h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.top-section .user-links{
+    display: flex;
+    gap: 40px;
+}
+.projectPage .main-heading{
+    margin-bottom: 100px;
 }
